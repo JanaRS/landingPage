@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page</title>
+</head>
+
+<body>
+    <div class="page">
+        <nav>
+            <div class="div-logo">
+                <img class="logo" src="./imagem/logo.png" alt="Imagem logomarca">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+        <h1>Pizzaria do Joãozinho</h1>
+    
+        <main>
+            <section class="delivery">
+                <h2>Entrega grátis e mais rápida da cidade!</h2>
+                <img src="./imagem/delivery.png" alt="">                
+            </section>
+    
+            <section class="promo">
+                <h2>Faça seu cadastro e ganhe 30% de desconto no primeiro pedido.</h2>
+
+                <form class="form" id="cadastro" action="" method="post">
+                    <fieldset>
+                        <div id="div-dados">
+                            <div class="input-wrapper">
+                                <input type="text" id="nome" placeholder="Nome Completo" required>
+                            </div>
+                    
+                            <div class="input-wrapper">
+                                <input type="text" id="data-nasc" placeholder="Data de nascimento" required>
+                            </div>
+                
+                            <div class="input-wrapper">
+                                <input type="email" id="email" placeholder="E-mail" required>
+                            </div>  
+                        </div>
+                    </fieldset>
+                    <button type="submit">Cadastrar</button>
+                </form>
+    
+            </section>
+        </main>
+    
+        <div id="line"></div>
+
+        <footer>
+            siga também no instagram <a href="https://instagram.com.br"> @pizzajoaozinho</a> 
+        </footer>
+    </div> 
+    <script src="./script.js"></script>  
+    
+</body>
+</html>
